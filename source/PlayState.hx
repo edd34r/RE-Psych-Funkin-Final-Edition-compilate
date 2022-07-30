@@ -1125,7 +1125,7 @@ class PlayState extends MusicBeatState
 		#end
 
 		var creditText:FlxText = new FlxText(876, 648, 348);
-        creditText.text = 'PORTED BY\nNong Vanila';
+        creditText.text = '0.4.2';
         creditText.setFormat(Paths.font("vcr.ttf"), 30, FlxColor.WHITE, RIGHT, FlxTextBorderStyle.OUTLINE,FlxColor.BLACK);
 		creditText.cameras = [camHUD];
         creditText.scrollFactor.set();
